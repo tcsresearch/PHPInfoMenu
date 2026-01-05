@@ -1,0 +1,19 @@
+/* Light mode variables (default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark mode overrides based on system preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+  }
+}
+
+/* Use the variables throughout your CSS */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
