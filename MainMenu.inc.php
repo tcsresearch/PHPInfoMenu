@@ -1,5 +1,13 @@
 <link rel="stylesheet" href="/css/style.css">
 
+// Require calling MainMenu.inc.php
+<?php require_once 'MainMenu.inc.php'; ?>
+
+// Consider using relative path
+// <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/menu.php'; ?>
+
+
+
 <ul class="menu" role="navigation">
   <li><a class="active" href="#Home">Home</a></li>
   <li><a href="/_Indexes/Index_General.php">General</a></li>
