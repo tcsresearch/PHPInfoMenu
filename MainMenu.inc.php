@@ -1,9 +1,12 @@
+<?php // TODO: Convert full file to use PHP code? ?>
+
+
 <link rel="stylesheet" href="/css/style.css">
 
-// Require calling MainMenu.inc.php
+<?php // Require calling MainMenu.inc.php ?>
 <?php require_once 'MainMenu.inc.php'; ?>
 
-// Consider using relative path
+<?php // Consider using relative path ?>
 // <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/menu.php'; ?>
 
 
