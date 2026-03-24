@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 <ul class="menu" role="navigation">
   <li><a class="active" href="#Home">Home</a></li>
