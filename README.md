@@ -1,7 +1,10 @@
 # PHPInfoMenu
 A fancy menu using phpinfo().
 <h4> A Work In Progress (WIP)... </h4>
-As of Mar 27, 2026, the coe and menu with CSS should be working and is very testable.
+As of Mar 27, 2026, the code and menu with CSS was working and is very testable.
+However, after updating Gihub and deplying to ourt site for use, everything was somehow glitched and reverted back to a completely non-working status.
+Now we need time to figure out if there is any copy of good code (we have multiple backups to sift through!).
+This was a human error or sorts - something PEBKAC and/or PICNIC related.
 <h5>Bugs / TODO</h5>
 <ul>
   <li>There are minor CSS glitches on a couple pages.</li>
