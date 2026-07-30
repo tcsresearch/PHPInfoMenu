@@ -1,13 +1,50 @@
-<link rel="stylesheet" href="/style.css">
-
-<ul class="menu" role="navigation">
-  <li><a class="active" href="#Home">Home</a></li>
-  <li><a href="Index_General.php">General</a></li>
-  <li><a href="Index_Credits.php">Credits</a></li>
-  <li><a href="Index_Configuration.php">Configuration</a></li>
-  <li><a href="Index_Modules.php">Modules</a></li>
-  <li><a href="Index_Environment.php">Environment</a></li>
-  <li><a href="Index_Variables.php">Variables</a></li>
-  <li><a href="Index_License.php">Licence</a></li>
-  <li><a href="Index_All.php">All</a></li>
-</ul>
+<?php
+echo '<!DOCTYPE html>';
+echo '<html lang="en" data-theme="light">';
+echo '<head>';
+echo '<meta charset="UTF-8">';
+echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+echo '<title>TCS PHPInfo Server - Development Beta 1</title>';
+echo '<link rel="stylesheet" href="style.css">';
+echo '</head>';
+echo '<body>';
+echo '';
+echo '<nav class="navbar">';
+echo '<div class="logo">';
+echo '<img src="tcshost_logo.png">';
+echo 'TCS PHPInfo Server';
+echo '</div>';
+echo '';
+echo '<ul class="nav-links">';
+echo '<li><a href="https://phptest.tcshosting.net/">Home</a></li>';
+echo '<li><a href="https://phptest.tcshosting.net/Index_General.php">General</a></li>';
+echo '<li><a href="https://phptest.tcshosting.net/Index_Credits.php">Credits</a></li>';
+echo '<li><a href="https://phptest.tcshosting.net/Index_Configuration.php">Configuration</a></li>';
+echo '<li><a href="https://phptest.tcshosting.net/Index_Modules.php">Modules</a></li>';
+echo '<li><a href="https://phptest.tcshosting.net/Index_Environment.php">Environment</a></li>';
+echo '<li><a href="https://phptest.tcshosting.net/Index_Variables.php">Variables</a></li>';
+echo '<li><a href="https://phptest.tcshosting.net/Index_License.php">License</a></li>';
+echo '<li><a href="https://phptest.tcshosting.net/Index_All.php">All</a></li>';
+echo '</ul>';
+echo '';
+echo '<!-- Theme Switch Container -->';
+echo '<div class="theme-switch-wrapper">';
+echo '<span class="mode-label">Light</span>';
+echo '<label class="theme-switch" for="checkbox">';
+echo '<input type="checkbox" id="checkbox" />';
+echo '<div class="slider round"></div>';
+echo '</label>';
+echo '<span class="mode-label">Dark</span>';
+echo '</div>';
+echo '</nav>';
+echo '';
+echo '<main class="content">';
+echo '<h1>Welcome To The TCS PHPInfo Server!</h1>';
+echo '<p> This server displays information about the installed PHP environment.  Feel free to navigate the various sections using the main menu above.</p>';
+echo '<p>To switch between light and dark themes, use the toggle switch in the upper right corner.</p>';
+echo '</main>';
+echo '';
+echo '<script src="script.js"></script>';
+echo '</body>';
+echo '</html>';
+?>

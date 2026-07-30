@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu with Theme Switch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Brand</div>
+    
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <!-- Theme Switch Container -->
+    <div class="theme-switch-wrapper">
+      <span class="mode-label">Light</span>
+      <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+      </label>
+      <span class="mode-label">Dark</span>
+    </div>
+  </nav>
+
+  <main class="content">
+    <h1>Welcome Content</h1>
+    <p>This is a preview of how the navigation menu behaves with the toggle switch.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
