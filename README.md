@@ -1,26 +1,25 @@
 # PHPInfoMenu
 A fancy menu using phpinfo().
-<h4> A Work In Progress (WIP)... </h4>
-As of July 30, 2026, a major rewrite has been pushed to the site for testing.  Things are likely broken until the code merge is completed.
-As of Mar 27, 2026, the code and menu with CSS should be working and is very testable.
+<h4> July 30, 2026 - Major Rewrite Completed </h4>
+As of July 30, 2026, a major rewrite has been pushed to the site for testing. <br>
+Almost everything should be working and is very testable, except for the pages being stuck in dark mode. <br>
+The light/dark mode toggle works fine for the main menu.  
 <h5>Bugs / TODO</h5>
 <ul>
-  <li>There are minor CSS glitches on a couple pages.</li>
-  <li>The active page highlight/bold feature in CSS needs to be implemented.</li>
+  <li>The pages are stuck in dark mode.</li>
 </ul>
 <hr>
 
 > [!NOTE]
-> PHPInfoMenu is under active development and testing. <br>
-> It mostly works at the moment, and after a few bugfixes, it should start becoming suitable for testing.
+> PHPInfoMenu is under active development and testing. It works fine, and should be suitable for production use.
 <hr>
 
 > [!WARNING]
-> This code is highly experiemental and has NOT been fully implemented or tested.
+> This code is experimental and has NOT been fully implemented or tested.
 <hr>
 
 > [!IMPORTANT]
-> Code is not considered stable yet, and still lacks most features.
+> Code is considered stable, and contains most features.  However, use remains at your own risk.
 
 <hr>
 
