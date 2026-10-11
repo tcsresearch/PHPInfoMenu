@@ -17,6 +17,8 @@ echo '<title>TCS PHPInfo Server - Development Beta 1</title>';
     // document.body.classList.add(currentTheme);
 </script>
 
+// Source our JavaScript
+    echo '<script src="script.js"></script>';
 // Include Our Stylesheet
 echo '<link rel="stylesheet" href="style.css">';
 
@@ -39,7 +41,7 @@ phpinfo(INFO_ALL);
 
 echo '</main>';
 echo '';
-echo '<script src="script.js"></script>';
+// echo '<script src="script.js"></script>';
 echo '</body>';
 echo '</html>';
 
