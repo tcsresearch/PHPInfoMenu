@@ -6,7 +6,6 @@ echo '<head>';
 echo '<meta charset="UTF-8">';
 echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 echo '<title>TCS PHPInfo Server - Development Beta 1</title>';
-echo '<link rel="stylesheet" href="style.css">';
 
 // New Theme Switch Script Fix For Bug #2:
 <script>
@@ -17,6 +16,11 @@ echo '<link rel="stylesheet" href="style.css">';
     // Alternatively, if you use a class name:
     // document.body.classList.add(currentTheme);
 </script>
+
+// Include Our Stylesheet
+echo '<link rel="stylesheet" href="style.css">';
+
+
   
 // Include our main menu
 include_once 'MainMenu.inc.php'; 
