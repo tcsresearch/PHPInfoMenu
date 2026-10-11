@@ -11,9 +11,28 @@ echo '<link rel="stylesheet" href="style.css">';
 
 <script>
   // Run immediately before the body renders to prevent flashing
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', savedTheme);
 </script>
+
+<!-- Your toggle button inside MainMenu.inc.php -->
+<button id="theme-toggle">Toggle Mode</button>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', () => {
+    // 1. Get the current theme from the root <html> element
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    
+    // 2. Apply the new theme to the root element globally
+    document.documentElement.setAttribute('data-theme', newTheme);
+    
+    // 3. Save the preference for other pages
+    localStorage.setItem('theme', newTheme);
+});
+</script>
+
+
 
 <?php // Reopen PHP for the rest.
 echo '<meta charset="UTF-8">';
