@@ -6,6 +6,16 @@ echo '<head>';
 echo '<script src="script.js"></script>';
 echo '<link rel="stylesheet" href="style.css">';
 
+// Close PHP and temporarily revert to HTML for the fix.
+?>
+
+<script>
+  // Run immediately before the body renders to prevent flashing
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+</script>
+
+<?php // Reopen PHP for the rest.
 echo '<meta charset="UTF-8">';
 echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 echo '<title>TCS PHPInfo Server - Development Beta 1</title>';
