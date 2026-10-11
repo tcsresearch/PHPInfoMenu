@@ -14,15 +14,6 @@ echo '</head>';
 echo '<body>';
 echo '<main class="content">';
 
-// New Test Code to fix Bug #2: 
-<?php
-$bgColor = '#1a1a1a';
-$textColor = '#ffffff';
-?>
-
-<div style="background-color: <?php echo htmlspecialchars($bgColor); ?> !important; color: <?php echo htmlspecialchars($textColor); ?> !important;">
-    This content uses dynamic colors from PHP.
-</div>
 
 // Show all information, defaults to INFO_ALL
 // phpinfo();
