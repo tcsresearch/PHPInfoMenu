@@ -31,6 +31,15 @@ body {
   color: var(--text-color);
 }
 
+/* New content class Oct 11,2026.  Should fix bug #2 
+    https://github.com/tcsresearch/PHPInfoMenu/issues/2 */
+
+.content {
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
 /* Navbar Styles */
 .navbar {
   display: flex;
