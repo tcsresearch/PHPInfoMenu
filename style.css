@@ -31,7 +31,7 @@ body {
   color: var(--text-color);
 }
 
-/* New content class Oct 11,2026.  Should fix bug #2 
+/* New content class Oct 11,2026.  Failed to fix bug #2, possiblye because MainMenu.inc.php is a different file than Index_All.php, etc. 
     https://github.com/tcsresearch/PHPInfoMenu/issues/2 */
 
 .content {
