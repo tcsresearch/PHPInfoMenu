@@ -8,6 +8,16 @@ echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 echo '<title>TCS PHPInfo Server - Development Beta 1</title>';
 echo '<link rel="stylesheet" href="style.css">';
 
+// New Theme Switch Script Fix For Bug #2:
+<script>
+    // Check localStorage for saved theme, default to 'light' if not found
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    
+    // Alternatively, if you use a class name:
+    // document.body.classList.add(currentTheme);
+</script>
+  
 // Include our main menu
 include_once 'MainMenu.inc.php'; 
 echo '</head>';
