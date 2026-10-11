@@ -2,10 +2,14 @@
 echo '<!DOCTYPE html>';
 echo '<html lang="en" data-theme="light">';
 echo '<head>';
+// Moved script and CSS to try to fix Bug #2
+echo '<script src="script.js"></script>';
+echo '<link rel="stylesheet" href="style.css">';
+
 echo '<meta charset="UTF-8">';
 echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 echo '<title>TCS PHPInfo Server - Development Beta 1</title>';
-echo '<link rel="stylesheet" href="style.css">';
+// echo '<link rel="stylesheet" href="style.css">';
 echo '</head>';
 echo '<body>';
 echo '';
@@ -44,7 +48,7 @@ echo '<p> This server displays information about the installed PHP environment. 
 echo '<p>To switch between light and dark themes, use the toggle switch in the upper right corner.</p>';
 echo '</main>';
 echo '';
-echo '<script src="script.js"></script>';
+// echo '<script src="script.js"></script>';
 echo '</body>';
 echo '</html>';
 ?>
