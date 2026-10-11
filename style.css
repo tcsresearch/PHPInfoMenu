@@ -38,8 +38,8 @@ body {
   padding: 3rem 2rem;
   text-align: center;
   font-family: sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
 }
 
 /* Navbar Styles */
