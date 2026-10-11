@@ -7,7 +7,9 @@ echo '<meta charset="UTF-8">';
 echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 echo '<title>TCS PHPInfo Server - Development Beta 1</title>';
 
-// New Theme Switch Script Fix For Bug #2:
+// Temporarily leave PHP for Bug Fixes
+?>
+
 <script>
     // Check localStorage for saved theme, default to 'light' if not found
     const currentTheme = localStorage.getItem('theme') || 'light';
@@ -17,6 +19,7 @@ echo '<title>TCS PHPInfo Server - Development Beta 1</title>';
     // document.body.classList.add(currentTheme);
 </script>
 
+<?php // Go back to PHP
 // Source our JavaScript
     echo '<script src="script.js"></script>';
 // Include Our Stylesheet
